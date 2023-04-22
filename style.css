@@ -1,8 +1,64 @@
 body {
 
     background-image: url("./ElectricStation.jpg");
+    height: 100vh;
+    width: 100%;
+    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    background-color: #f2f2f2;
+    position:relative
+  }
+
+  .title {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .form {
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    background-color: rgba(255, 255, 255, 0.8); /* transparent white */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px; /* increase height */
+  }
+  
+  input[type="text"], input[type="number"], select {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: #f2f2f2; /* light grey background */
+    margin-bottom: 10px;
+  }
+
+  .main {
+
+    background-image: url("./ElectricStation.jpg");
+    height: 100vh;
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative
   }
